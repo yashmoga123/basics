@@ -1,0 +1,16 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+	
+    int r,h;
+    cin>>r>>h;
+    
+    //int formula for vol of cylinder = 22/7*r*r*h;
+    
+    int volcyl = 22/7*r*r*h;
+    
+    cout<<" the volume of cylinder is "<<volcyl<<endl;
+    
+    
+	return 0;
+}
