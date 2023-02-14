@@ -1,0 +1,20 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+	
+    int b,h;
+    cin>>b>>h;
+    
+    //int formula for area is = b * h;
+    //int formula for perimeter is = 2 * b + 2 * h;
+    
+    int areaofrec = b * h;
+    int perirec = 2 * b + 2 * h;
+    
+    cout<<" the area of rectangle is "<<areaofrec<<endl;
+    cout<<" the perimeter of rectangle is "<<perirec<<endl;
+    
+    
+    
+	return 0;
+}
