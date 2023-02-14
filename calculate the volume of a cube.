@@ -1,0 +1,15 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+	
+    int a;
+    cin>>a;
+    
+    //int formula for vol of cube = a*a*a;
+    int volcube = a*a*a;
+    
+    cout<<" the volume of cube is "<<volcube<<endl;
+    
+    
+	return 0;
+}
