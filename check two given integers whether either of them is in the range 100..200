@@ -1,0 +1,19 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+	
+	int a,b;
+	cin>>a>>b;
+	
+	if( a >= 100 && a<= 200 || b >= 100 && b <= 200){
+		
+		cout<<" they are in the range ";
+	}
+	else{
+		
+		cout<<" they are not in range ";
+	}
+	
+	
+	return 0;
+}
