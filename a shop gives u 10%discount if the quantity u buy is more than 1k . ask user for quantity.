@@ -1,0 +1,24 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+
+    int cost;
+    cin>>cost;
+    
+    if( cost>=1000){
+    	
+    	cost -= 0.1;
+    	cout<<" cost is "<<cost;
+    }
+    else{
+    	cout<<" total cost is = "<<cost<<endl;
+    	cout<<" ----- we r sorry -----------"<<endl;
+    	cout<<" there is  no discount ";
+    }
+    	
+    
+    
+
+	return 0;
+}
