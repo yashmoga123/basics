@@ -1,0 +1,24 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+   
+	int a,b;
+	cin>>a>>b;
+	
+	int percentage = (a*100)/b;
+	
+	if(percentage >75){
+		
+		cout<<" you got "<<percentage<<" percente "<<endl;
+		cout<<"-----------------";
+		cout<<" you are allowed ";
+	}
+	else {
+		
+		cout<<" you are not allowed ";
+	}
+	
+	
+	
+	return 0;
+}
