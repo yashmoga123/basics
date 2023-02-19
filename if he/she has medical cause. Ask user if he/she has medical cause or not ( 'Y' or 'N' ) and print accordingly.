@@ -1,0 +1,26 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+	
+	signed int a,b;
+	cin>>a>>b;
+	char d;
+	cin>>d;
+	
+	if(a<75){
+		if(d == 'y'){
+			
+			cout<<" you have medical so you are allowed ";
+		}
+	}
+	else{
+		
+		cout<<" you don't have medical so you are not allowed ";
+	}
+	
+	
+	
+	
+	
+	return 0;
+}
