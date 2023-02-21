@@ -1,0 +1,18 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+  
+    int p,t;
+    cin>>p>>t;
+    
+    int energy = p*t;
+    
+    cout<<" the bill is "<<energy<<endl;
+    
+    
+    
+    
+  
+	return 0;
+}
