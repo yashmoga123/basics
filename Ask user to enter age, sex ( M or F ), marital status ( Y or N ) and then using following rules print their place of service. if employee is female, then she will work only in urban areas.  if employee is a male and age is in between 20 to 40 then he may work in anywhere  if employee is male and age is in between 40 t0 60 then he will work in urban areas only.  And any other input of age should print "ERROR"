@@ -1,0 +1,30 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    
+    int age;
+    cin>>age;
+    char gender,status;
+    cin>>gender>>status;
+    
+    if( gender ==  'f'){
+    	
+    	cout<<" she will work in urban areas ";
+    }
+    else if( gender ==  'm' && age>=20 && age<=40 ){
+    	
+    	cout<<" he will work anywhere ";
+    }
+    else if(gender == 'm' && age>=40 && age<=60 ){
+    	
+    	cout<<" he will work in urban area's ";
+    }
+    else {
+    	
+    	cout<<" ERROR ";
+    }
+    
+    
+	return 0;
+}
