@@ -1,0 +1,23 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	
+	int a;
+	cin>>a;
+	
+	if(a<0){
+		
+		cout<<" a is negative ";
+	}
+	else if( a>0){
+		
+		cout<<" a is positive ";
+	}
+	else if( a == 0){
+		
+		cout<<" a is nor positive or negative ";
+	}
+	
+	return 0;
+}
