@@ -1,0 +1,42 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	
+	
+	int salary,gross,da,hra;
+	cin>>salary;
+	
+	if( salary<=10000){
+		
+		da = salary*20/100;
+		hra = salary*80/100;
+		gross = salary+da+hra;
+		
+		cout<<" the salary of an employe is = "<<gross<<endl;
+	}
+	else if( salary<=20000){
+		
+		da = salary*25/100;
+		hra = salary*90/100;
+		gross = salary+da+hra;
+		
+		cout<<" the salary of an employe is = "<<gross<<endl;
+	}
+	else if( salary>20000){
+		
+		da = salary*30/100;
+		hra = salary*95/100;
+		gross = salary+da+hra;
+		
+		cout<<" the salary of an employe is = "<<gross<<endl;
+	}
+	
+	
+	
+	
+	
+	
+	
+	return 0;
+}
