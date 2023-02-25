@@ -1,0 +1,27 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	
+	signed int a,b,c;
+	cin>>a>>b>>c;
+	
+	int d = ( b*b )-4*a*c;
+	int root1 = ( -b+sqrt(d))/2*a*c;
+	int root2 = ( -b-sqrt(d))/2*a*c;
+	
+	if( d>=0){
+		
+		cout<<root1<<endl;
+		cout<<root2<<endl;
+	}
+	else{
+		
+		cout<<" no roots ";
+	}
+	
+	
+	
+	
+	return 0;
+}
