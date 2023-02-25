@@ -1,0 +1,26 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	
+	int sp,cp;
+	cin>>sp>>cp;
+	
+	if( sp>cp ){
+		
+		cout<<sp-cp<<" rs "<<endl;
+		cout<<" profit ";
+	}
+	else if( cp>sp){
+		
+		cout<<cp-sp<<" rs "<<endl;
+		cout<<" loss ";
+	}
+	else {
+		
+		cout<<" no profit no loss ";
+	}
+	
+	
+	return 0;
+}
