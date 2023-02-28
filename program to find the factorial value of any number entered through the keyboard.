@@ -1,0 +1,23 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	
+	int n;
+	cin>>n;
+	
+	int f = 1;
+	
+	for( int i = n; i >= 1; --i){
+		
+		f = f * i;
+		
+		}
+		cout<<" the factorial of "<<n<<" is " <<f<<endl; 
+	    
+	
+	
+	
+	
+	return 0;
+}
