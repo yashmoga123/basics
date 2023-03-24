@@ -1,0 +1,43 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() {
+    
+    int n;
+    cin>>n;
+    int A[n];
+    for(int i = 0; i < n; i++){
+    	
+    	cin>>A[i];
+    }
+    for(int i = 0; i < n; i++){
+    	
+    	cout<<A[i]<<" ";
+    }
+    cout<<endl;
+    
+    int max = A[0];
+    int min = A[0];
+    for(int i = 0; i < n; i++){
+    	
+    	if(A[i]>max){
+    		
+    		max = A[i];
+    	}
+    	if(A[i]<min){
+    		
+    		min = A[i];
+    	}
+    }
+    cout<<" the maximum is "<<max<<endl;
+    cout<<" the minimum is "<<min<<endl;
+    cout<<" the of sum of max and min is "<<max+min<<endl;
+    cout<<" the average of these are = "<<( max+min)/2<<endl;
+    
+    
+    
+    
+    
+    
+	return 0;
+}
