@@ -1,0 +1,26 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int diameter(int r){
+	
+	return (2*r);
+}
+int circumference(int r){
+	
+	return( 2*22/7*r);
+}
+int area(int r){
+	
+	return( 22/7*r*r);
+}
+int main(){
+	
+	int a;
+	cin>>a;
+	int d = diameter(a);
+	cout<<d<<endl;
+	int c = circumference(a);
+	cout<<c<<endl;
+	int ar = area(a);
+	cout<<ar<<endl;
+}
