@@ -1,0 +1,41 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    
+    int n;
+    cin>>n;
+    int A[n];
+    
+    for(int i = 0;i<n;i++){
+    	
+    	cin>>A[i];
+    }
+    for(int i = 0;i<n;i++){
+    	
+    	cout<<A[i]<<" ";
+    }
+    cout<<endl;
+    int first_element,second_element,third_element;
+    first_element=second_element=third_element=INT_MAX;
+    
+    for(int i = 0;i<n;i++){
+    	
+    	if(A[i]<first_element){
+    		
+    		third_element=second_element;
+    		second_element=first_element;
+    		first_element=A[i];
+    	}
+    	
+    	
+    }
+    cout<<endl;
+    cout<<" the third smallest is "<<third_element;
+    
+    
+    
+    
+
+	return 0;
+}
