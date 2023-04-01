@@ -1,0 +1,25 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+bool even ( int e ){
+	
+	if(e%2==0){
+		
+		return true;
+	}
+}
+bool odd ( int o){
+	
+	if(o%2!=0){
+		
+		return false;
+	}
+}
+int main(){
+	int a;
+	cin>>a;
+	bool o = odd(a);
+	cout<<o<<endl;
+	bool e = even(a);
+	cout<<e<<endl;
+}
