@@ -1,0 +1,22 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+
+   
+   
+   int n;
+   cin>>n;
+   int size;
+   cin>>size;
+   int result = 1;
+   for(int i = 1;i<=size;i++)
+   {
+   	
+   	result = n*i;
+   	cout<<n<<" x "<<i<<" = "<<result<<endl;
+   }
+
+
+	return 0;
+}
