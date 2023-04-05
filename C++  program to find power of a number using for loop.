@@ -1,0 +1,22 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	 
+	 int base;
+	 cin>>base;
+	 int expo;
+	 cin>>expo;
+	 int power=1;
+	 
+	 for( int i = 1; i <= expo; i++){
+	 	
+	 	power = power * base;
+	 }
+	 cout<<power; 
+	 
+	 
+	 
+	 
+	 return 0;
+}
