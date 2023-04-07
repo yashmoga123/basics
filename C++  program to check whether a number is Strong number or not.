@@ -1,0 +1,41 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+	
+	int fact(int num){
+		
+		int f = 0;
+		for(int i = 0; i<num;i++){
+			
+			f = f * i;
+		}
+		return f;
+	}
+	int strong(int n){
+		int sum = 0;
+		int digit;
+		int temp = n;
+		while( n!=0){
+			digit = n%10;
+			sum = sum + fact(digit);
+			n = n/10;
+		}
+		return sum == temp;
+	}
+	int main(){
+		int n;
+		cin>>n;
+		if(strong(n)){
+			
+			cout<<" strong number ";
+		}
+		else
+		{
+			cout<<" not a strong number ";
+		}
+		
+	}
+	
+	
+	
+	
