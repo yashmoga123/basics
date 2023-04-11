@@ -1,0 +1,41 @@
+#include <bits/stdc++.h>
+using namespace std;
+ 
+int main() {
+ 
+ 
+	int a,b;
+	cin>>a>>b;
+    if(a>0 && b>0){
+ 
+    	cout<<" 1st quadrant ";
+    }
+    else if( a<0 && b>0){
+ 
+    	cout<<" 2nd quadrant ";
+    }
+	else if( a<0 && b<0){
+ 
+		cout<<" 3rd quadrant ";
+	}
+	else if( a>0 && b<0){
+ 
+		cout<<" 4th quadrant ";
+	}
+	else if( a && b == 0){
+ 
+		cout<<" x-axis ";
+	}
+	else if( a == 0 && b){
+ 
+		cout<<" y-axis ";
+	}
+	else if( a == 0 && b == 0 ){
+ 
+		cout<<" origin ";
+	}
+ 
+ 
+ 
+	return 0;
+}
