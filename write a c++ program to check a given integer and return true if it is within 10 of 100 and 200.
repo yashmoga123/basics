@@ -1,0 +1,21 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	
+	int n;
+	cin>>n;
+	
+	if(abs(n-100)<=10 || abs(n-200)<=10){
+		
+		cout<<" true ";
+	}
+	else{
+		
+		cout<<" false ";
+	}
+	
+	
+	
+	return 0;
+}
