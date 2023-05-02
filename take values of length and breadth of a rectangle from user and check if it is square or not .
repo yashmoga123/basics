@@ -1,0 +1,23 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	
+	int l,b;
+	cin>>l>>b;
+	
+	if( l == b){
+		
+		cout<<" it is a square ";
+	}
+	else
+	{
+		
+		cout<<" not a square ";
+	}
+	
+	
+	
+	
+	return 0;
+}
