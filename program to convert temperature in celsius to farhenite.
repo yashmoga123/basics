@@ -1,0 +1,19 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+
+    int tempincels,f;
+    cin>>tempincels;
+    
+    f = 9/5*(tempincels+32);
+    
+    
+    cout<<"the temp in farhenite is "<<f<<endl;
+    
+    
+    
+
+
+	return 0;
+}
