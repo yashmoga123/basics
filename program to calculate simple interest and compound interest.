@@ -1,0 +1,21 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	
+	int p,amo,rateofi,time,noy,si,ci;
+	cin>>p>>amo>>rateofi>>noy>>time;
+	
+	//noy = number of years
+	
+	si = p*rateofi*time;
+	
+	cout<<" the simple interest is "<<si<<endl;
+	
+	ci = p*((1+rateofi/100),noy)-p;
+	
+	cout<<" the compound interest is "<<ci<<endl;
+	
+	
+	return 0;
+}
