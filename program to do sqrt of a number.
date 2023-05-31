@@ -1,0 +1,6 @@
+int floorSqrt(int n)
+{
+    long long int sqr = sqrt(n);
+    int result = (int)(sqr);
+    return result;
+}
