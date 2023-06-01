@@ -1,0 +1,22 @@
+#include <bits/stdc++.h> 
+vector<int> findArraySum(vector<int>&a, int n, vector<int>&b, int m) {
+	// Write your code here.
+	int num1 = 0;
+    for( int i : a ){
+		num1 = num1 * 10 + i  ;
+	}
+	int num2 = 0;
+    for( int i : b ){
+		num2 = num2 * 10 + i  ;
+	}
+
+	int sum = num1+num2;
+	vector<int>ans;
+	while(sum!=0){
+		int digit = sum%10;
+		ans.push_back(digit);
+		sum /= 10;
+	}
+	reverse(ans.begin(),ans.end());
+	return ans;
+}
