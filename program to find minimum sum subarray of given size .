@@ -1,0 +1,18 @@
+#include <bits/stdc++.h> 
+
+//  0 1 2 3 4 5 6 7
+// 10 4 2 5 6 3 8 1
+
+int minSubarraySum(int arr[], int n, int k)  {
+    int sum = 0;
+    int mn = INT_MAX;
+    for (int i = 0; i < k; ++i) {
+        sum += arr[i];
+    }
+    mn = min(mn, sum);
+    for (int i = k; i < n; ++i) {
+        sum += (arr[i] - arr[i - k]);
+        mn = min(mn, sum);
+    }
+    return mn;
+}
