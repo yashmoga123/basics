@@ -1,0 +1,7 @@
+class Solution {
+public:
+    int divide(int dividend, int divisor) {
+        signed int ans = dividend/divisor;
+        return ans;
+    }
+};
